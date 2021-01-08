@@ -1,0 +1,252 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* layout */
+.ms_wrapper {
+  /* background-color: #1a2021; */
+  min-width: 380px;
+  min-height: 500px;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+.ms_cont10 {
+  margin: 0 10%;
+}
+
+
+section{ margin: 10px 0;}
+
+/* regole generali */
+span {
+  color: orange;
+  font-size: 18px;
+  font-weight: 400;
+}
+img  {height: 100%;}
+ul { list-style-type: none; margin-bottom: 0; }
+nav  ul li { margin-right: 20px;}
+a { text-decoration: none; color: black; font-size: 14px;}
+i { font-size: 30px; margin:15PX 0; margin-right: 11px;}
+.ms_orMenu li {display: inline-block; border-bttom: 1px solid black; padding: 10px 20px}
+.ms_btn_ble {
+  padding: 5px 16px;
+  border-radius: 20px;
+  background-color: blue;
+}
+
+
+/*  fine regole generali */
+
+
+/* header */
+
+header .ms_navbar{
+  color: black;
+  font-weight: 300;
+  font-size: 13px;
+  letter-spacing: 1.5px;
+}
+header .ms_navbar {
+  height: 3.25rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+}
+/* navbar */
+/* fine header */
+
+
+/* main */
+/* secton jumbo */
+.ms_jumbo {
+  padding-top: 32px; /* 2/16 */
+}
+
+.ms_jumbo-body {
+  padding-top: 90px;
+  text-align: center;
+
+}
+
+.ms_jumbo-body h1 {
+  font-size: 43px;
+  font-weight:600;
+}
+
+.ms_jumbo-body p {
+  padding: 20px 0;
+  font-size: 22px;
+  font-weight: 300;
+
+}
+
+.ms_avatar-container {
+  margin: 70px 0;
+  height: 230px;
+}
+
+
+
+/* main */
+.ms_texture-image-container {
+  height: 285px;
+}
+
+.ms_presentation-body{
+  height: 600px;
+  width: 100%;
+  background: orange;
+
+
+}
+.ms_aboutMe-body{
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+
+
+
+}
+.ms_presentation-body {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.ms_presentation-text {
+  padding-bottom: 100px;
+}
+.ms_presentation-text h2 {
+  padding: 10px 0;
+}
+
+.ms_presentation-text h2 {
+  font-size: 35px;
+  font-weight: 700;
+}
+
+
+.ms_presentation-text p {
+  font-size: 18px;
+  font-weight: 100;
+  padding: 0 150px;
+  color: white;
+  letter-spacing: 1.1px;
+
+}
+
+/* skill section */
+
+#skill {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.ms_card_container {
+  padding: 40px 0;
+  background-color: white;
+  border-radius: 12px;
+  position: absolute;
+  top: -140px;
+  box-shadow: 0 5px 5px 0 rgba(233, 240, 243, 0.5), 0 0 0 1px #E6ECF8;
+  color: #141c3a;
+}
+
+
+.card-item {
+  width: 750px;
+  text-align: center;
+  height: 100%;
+  }
+
+
+  .card-item ul li {
+    font-size: 17px;
+    padding: 0 2px;
+  }
+
+.card-item i {
+  font-size: 110px;
+  padding: 30px 0;
+  color: orange;
+}
+  .card-text ul {
+    padding: 15px 0;
+    }
+
+
+.card-text {
+  padding: 15px 0;
+}
+
+
+/* fine main */
+
+
+
+
+
+
+@media all and (max-width: 500px) {
+
+
+
+}
+
+
+
+@media all and (max-width: 892px) {
+
+  header .ms_right_menu {
+
+    display: none;
+
+  }
+
+
+
+  .ms_jumbo-body {
+    padding: 0 5%;
+  }
+
+  .ms_presentation-body{
+    height: 600px;
+    width: 100%;
+    background: orange;
+
+
+  }
+  .ms_texture-image-container {
+    height: 160px;
+  }
+
+  .ms_presentation-text p {
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+    padding: 0 20px;
+  }
+
+  .card-item {
+    width: 450px;
+    text-align: center;
+    height: 100%;
+    }
+
+    .card-item i {
+      font-size: 70px;
+      }
+
+}
