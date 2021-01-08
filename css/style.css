@@ -151,7 +151,12 @@ header .ms_navbar {
 
 #skill {
   display: flex;
-  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+#skill {
   position: relative;
 }
 .ms_card_container {
@@ -166,7 +171,6 @@ header .ms_navbar {
 
 
 .card-item {
-  width: 750px;
   text-align: center;
   height: 100%;
   }
@@ -229,7 +233,7 @@ header .ms_navbar {
 
   }
   .ms_texture-image-container {
-    height: 160px;
+    height: 130px;
   }
 
   .ms_presentation-text p {
@@ -240,21 +244,11 @@ header .ms_navbar {
   }
 
 
-  #skill {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  .card-item {
-    display:block;
-    flex-basis: 100%;
-    text-align: center;
-    height: 100%;
-    padding: 0;
-    }
+.ms_card_container {
+  position: static;
+}
 
-    .card-item i {
-      font-size: 70px;
-      }
+
+
 
 }
