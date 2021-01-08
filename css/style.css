@@ -154,6 +154,7 @@ header .ms_navbar {
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
+  justify-content: center;
 }
 
 #skill {
@@ -226,12 +227,17 @@ header .ms_navbar {
   }
 
   .ms_presentation-body{
-    height: 600px;
+    height: 100%;
     width: 100%;
     background: orange;
 
 
   }
+
+    .ms_presentation-body h2 {
+      font-size: 28px;
+      margin: 120px 0;
+    }
   .ms_texture-image-container {
     height: 130px;
   }
@@ -246,7 +252,13 @@ header .ms_navbar {
 
 .ms_card_container {
   position: static;
+  box-shadow: none;
+  border-radius: none;
+
+
+
 }
+
 
 
 
