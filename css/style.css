@@ -161,6 +161,7 @@ header .ms_navbar {
   position: relative;
 }
 .ms_card_container {
+  width: 900px;
   padding: 40px 0;
   background-color: white;
   border-radius: 12px;
