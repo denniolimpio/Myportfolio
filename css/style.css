@@ -240,7 +240,7 @@ header .ms_navbar {
   }
 
   .card-item {
-    width: 250px;
+    width: 100%;
     text-align: center;
     height: 100%;
     }
