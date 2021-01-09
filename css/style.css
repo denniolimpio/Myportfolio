@@ -13,11 +13,12 @@
 }
 
 .ms_cont10 {
-  margin: 0 10%;
+  margin: 5% 10%;
 }
 
 
-section{ margin: 10px 0;}
+
+
 
 /* regole generali */
 span {
@@ -27,6 +28,7 @@ span {
 }
 img  {height: 100%;}
 ul { list-style-type: none; margin-bottom: 0; }
+p {font-size: 18px;}
 nav  ul li { margin-right: 20px;}
 a { text-decoration: none; color: black; font-size: 14px;}
 i { font-size: 30px; margin:15PX 0; margin-right: 11px;}
@@ -48,15 +50,22 @@ header .ms_navbar{
   font-weight: 300;
   font-size: 13px;
   letter-spacing: 1.5px;
+  padding: 0 19px 0 19px;
+
+
 }
 header .ms_navbar {
-  height: 3.25rem;
+  height: 115px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   text-transform: uppercase;
+}
+
+.ms_navbar.ms_cont10 {
+  margin: 0 10%;
 }
 /* navbar */
 /* fine header */
@@ -81,7 +90,6 @@ header .ms_navbar {
 
 .ms_jumbo-body p {
   padding: 20px 0;
-  font-size: 22px;
   font-weight: 300;
 
 }
@@ -94,6 +102,7 @@ header .ms_navbar {
 
 
 /* main */
+
 .ms_texture-image-container {
   height: 285px;
 }
@@ -112,9 +121,6 @@ header .ms_navbar {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-
-
-
 }
 .ms_presentation-body {
   display: flex;
@@ -139,7 +145,6 @@ header .ms_navbar {
 
 
 .ms_presentation-text p {
-  font-size: 18px;
   font-weight: 100;
   padding: 0 150px;
   color: white;
@@ -147,9 +152,10 @@ header .ms_navbar {
 
 }
 
-/* skill section */
+/* competence section */
 
-#skill {
+#competence {
+  height: 650px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -157,7 +163,7 @@ header .ms_navbar {
   justify-content: center;
 }
 
-#skill {
+#competence {
   position: relative;
 }
 .ms_card_container {
@@ -198,6 +204,50 @@ header .ms_navbar {
 }
 
 
+
+
+/* recentWork */
+.recentWork_body {
+  padding: 100px 0 100px 0;
+}
+.recenWork-introText {
+  text-align: center;
+}
+.widget-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 54px 0;
+}
+
+.recenWork-introText h4 {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.recenWork-introText p  {
+}
+
+.widget {
+  height: 234px;
+  width: 384px;
+  margin: 10px;
+  border-radius: 12px;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+.widget.netflix {background-image: url(../img/netlogo.jpg);}
+.widget.udemy {background-image: url(../img/udemy.jpg);}
+.widget.whats {background-image: url(../img/whats.png);}
+.widget.helbiz {background-image: url(../img/helb.png);}
+.widget.flue {background-image: url(../img/fluen.png);}
+.widget.hubspot {background-image: url(../img/hubspot.jpg);}
+
 /* fine main */
 
 
@@ -237,7 +287,7 @@ header .ms_navbar {
 
     .ms_presentation-body h2 {
       font-size: 28px;
-      margin: 120px 0;
+      margin: 30px 0;
     }
   .ms_texture-image-container {
     height: 130px;
@@ -260,6 +310,18 @@ header .ms_navbar {
 
 }
 
+.recentWork_body {
+  margin: 0;
+}
+.widget {
+  height: 293px;
+  width: 440px;
+}
+
+.recenWork-introText h4 {
+  font-size: 24px;
+  font-weight: 600;
+}
 
 
 
