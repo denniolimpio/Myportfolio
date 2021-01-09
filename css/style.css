@@ -230,16 +230,74 @@ header .ms_navbar {
 }
 
 .widget {
+  position: relative;
   height: 234px;
   width: 384px;
   margin: 10px;
-  border-radius: 12px;
+  border-radius: 10px;
 
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 
 }
+.widget p{
+  display: none;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 800;
+  padding: 15px 10px;
+
+}
+.button {
+  height: 30px;
+  width: 90px;
+  border-radius: 12px;
+  background: red;
+}
+.widget .button {
+  display: none;
+}
+.widget h3{
+  display: none;
+  text-align: center;
+  font-size: 19px;
+  font-weight: 600;
+  padding: 20px 0;
+  margin: 0;
+}
+.widget:hover h3, p  {
+  color: white;
+  display: block;
+}
+
+.widget:hover p  {
+  color: white;
+  display: block;
+}
+.overlay {
+  border-radius: 10px;
+    position: absolute;
+    height: 0;
+    width: 100%;
+    background-color: #000000a8;
+    transition: all .5s ease;
+}
+
+
+.widget:hover .overlay {
+  height: 100%;
+
+}
+/* .widget:hover .width-opacity{
+  background-color: black;
+  display: block;
+}
+
+.width-opacity h4 {
+  text-align: center;
+  color: white;
+} */
 
 .widget.netflix {background-image: url(../img/netlogo.jpg);}
 .widget.udemy {background-image: url(../img/udemy.jpg);}
