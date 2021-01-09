@@ -181,22 +181,22 @@ header .ms_navbar {
 .card-item {
   text-align: center;
   height: 100%;
-  }
+}
 
 
-  .card-item ul li {
-    font-size: 17px;
-    padding: 0 2px;
-  }
+.card-item ul li {
+  font-size: 17px;
+  padding: 0 2px;
+}
 
 .card-item i {
   font-size: 110px;
   padding: 30px 0;
   color: #EB5154;
 }
-  .card-text ul {
-    padding: 15px 0;
-    }
+.card-text ul {
+  padding: 15px 0;
+}
 
 
 .card-text {
@@ -213,7 +213,7 @@ header .ms_navbar {
 .recenWork-introText {
   text-align: center;
 }
-.widget-container {
+.thumbnails-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -229,7 +229,15 @@ header .ms_navbar {
 .recenWork-introText p  {
 }
 
-.widget {
+.thumbnail {
+  display: none;
+}
+.thumbnail.active {
+  display: block;
+}
+.thumbnail.first{
+}
+.thumbnail {
   position: relative;
   height: 234px;
   width: 384px;
@@ -241,70 +249,56 @@ header .ms_navbar {
   background-position: center;
 
 }
-.widget p{
-  display: none;
-  text-align: center;
-  font-size: 15px;
-  font-weight: 800;
-  padding: 15px 10px;
 
-}
-.button {
-  height: 30px;
-  width: 90px;
-  border-radius: 12px;
-  background: red;
-}
-.widget .button {
-  display: none;
-}
-.widget h3{
-  display: none;
-  text-align: center;
-  font-size: 19px;
-  font-weight: 600;
-  padding: 20px 0;
-  margin: 0;
-}
-.widget:hover h3, p  {
-  color: white;
-  display: block;
+.slider-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
 
-.widget:hover p  {
-  color: white;
-  display: block;
-}
+
+
 .overlay {
   border-radius: 10px;
-    position: absolute;
-    height: 0;
-    width: 100%;
-    background-color: #000000a8;
-    transition: all .5s ease;
+  position: absolute;
+  height: 0;
+  width: 100%;
+  background-color: #000000a8;
+  transition: all 1.5s ease;
 }
 
 
-.widget:hover .overlay {
+.thumbnail p {
+  position: absolute;
+  top: 0;
+  transition-delay: 0.15s;
+}
+.thumbnail:hover h3 {
+  position: absolute;
+  top: 20px;
+  transition-delay: 0.15s;
+}
+.thumbnail:hover .overlay {
   height: 100%;
 
 }
 /* .widget:hover .width-opacity{
-  background-color: black;
-  display: block;
+background-color: black;
+display: block;
 }
 
 .width-opacity h4 {
-  text-align: center;
-  color: white;
+text-align: center;
+color: white;
 } */
 
-.widget.netflix {background-image: url(../img/netlogo.jpg);}
-.widget.udemy {background-image: url(../img/udemy.jpg);}
-.widget.whats {background-image: url(../img/whats.png);}
-.widget.helbiz {background-image: url(../img/helb.png);}
-.widget.flue {background-image: url(../img/fluen.png);}
-.widget.hubspot {background-image: url(../img/hubspot.jpg);}
+.thumbnail.netflix {background-image: url(../img/netlogo.jpg);}
+.thumbnail.udemy {background-image: url(../img/udemy.jpg);}
+.thumbnail.whats {background-image: url(../img/whats.png);}
+.thumbnail.helbiz {background-image: url(../img/helb.png);}
+.thumbnail.flue {background-image: url(../img/fluen.png);}
+.thumbnail.hubspot {background-image: url(../img/hubspot.jpg);}
 
 /* fine main */
 
@@ -343,10 +337,10 @@ header .ms_navbar {
 
   }
 
-    .ms_presentation-body h2 {
-      font-size: 28px;
-      margin: 30px 0;
-    }
+  .ms_presentation-body h2 {
+    font-size: 28px;
+    margin: 30px 0;
+  }
   .ms_texture-image-container {
     height: 130px;
   }
@@ -359,27 +353,27 @@ header .ms_navbar {
   }
 
 
-.ms_card_container {
-  position: static;
-  box-shadow: none;
-  border-radius: none;
+  .ms_card_container {
+    position: static;
+    box-shadow: none;
+    border-radius: none;
 
 
 
-}
+  }
 
-.recentWork_body {
-  margin: 0;
-}
-.widget {
-  height: 173px;
-  width: 310px;
-}
+  .recentWork_body {
+    margin: 0;
+  }
+  .thumbnail {
+    height: 173px;
+    width: 310px;
+  }
 
-.recenWork-introText h4 {
-  font-size: 24px;
-  font-weight: 600;
-}
+  .recenWork-introText h4 {
+    font-size: 24px;
+    font-weight: 600;
+  }
 
 
 
