@@ -22,7 +22,7 @@
 
 /* regole generali */
 span {
-  color: orange;
+  color: #EB5154;
   font-size: 18px;
   font-weight: 400;
 }
@@ -110,7 +110,7 @@ header .ms_navbar {
 .ms_presentation-body{
   height: 600px;
   width: 100%;
-  background: orange;
+  background: #EB5154;
 
 
 }
@@ -192,7 +192,7 @@ header .ms_navbar {
 .card-item i {
   font-size: 110px;
   padding: 30px 0;
-  color: orange;
+  color: #EB5154;
 }
   .card-text ul {
     padding: 15px 0;
@@ -280,7 +280,7 @@ header .ms_navbar {
   .ms_presentation-body{
     height: 100%;
     width: 100%;
-    background: orange;
+    background: #EB5154;
 
 
   }
